@@ -9,6 +9,7 @@ const mergeSort = (nums) => {
   //   return nums;
   // }
 
+  
 
   // set variables
   let length = nums.length;

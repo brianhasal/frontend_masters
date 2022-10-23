@@ -1,6 +1,5 @@
-let sample = 1978;
+let sample = "x"
 
-let strSample = sample.toString();
 
-console.log(strSample.length);
 
+console.log("0".repeat(3));

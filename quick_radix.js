@@ -19,14 +19,12 @@ function getDigit(number, place, longestNumber) {
     let difference = (longestNumber - length);
     strNo = (("0".repeat(difference)) + strNo);
   };
-  
+  let strArray = strNo.split("");
+  let arrRev = strArray.reverse();
+  let strRev = arrRev.join("");
+  return strRev[place];
 }
 
-console.log(getDigit(1394, 0, 4));
-
-
-
-//function getLongestNumber() {}
 
 function getLongestNumber(inputNo) {
   const strNo = inputNo.toString;
@@ -38,10 +36,9 @@ function getLongestNumber(inputNo) {
 function radixSort(array) {
   // code goes here
 
-  //find longest number
+  //find longest number (DONE)
 
-  //create how many buckets you need
-  //an array of 10 arrays
+  //create how many buckets you need (an array of 10 arrays)
 
   //for loop for how many iterations you need to do
     // while loop

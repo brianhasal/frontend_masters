@@ -16,7 +16,16 @@
 
 
 
+
+
 //function getLongestNumber() {}
+
+function getLongestNumber(inputNo) {
+  const strNo = inputNo.toString;
+  return strNo.length;
+}
+
+
 
 function radixSort(array) {
   // code goes here

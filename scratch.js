@@ -1,5 +1,3 @@
-let sample = "x"
-
-
-
-console.log("0".repeat(3));
+var pokedex = ['Snorlax', 'Jigglypuff', 'Charmander', 'Squirtle'];
+pokedex.pop();
+console.log(pokedex.pop());
